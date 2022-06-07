@@ -1,0 +1,23 @@
+name: Bug Report
+description: Unexpected behavior (something's not working).
+labels: [bug]
+body: 
+  - type: textarea
+    id: actual
+    attributes:
+      label: Bug Description
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What was supposed to happen?
+    validations:
+      required: false
+  - type: textarea
+    id: other
+    attributes:
+      label: Other Information
+      description: Screenshots, suggested fixes, other information, etc.

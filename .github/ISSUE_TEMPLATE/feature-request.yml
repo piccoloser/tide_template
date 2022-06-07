@@ -1,0 +1,27 @@
+name: Feature Request
+description: Suggest an idea for this project
+labels: [feature]
+body: 
+  - type: textarea
+    id: feature
+    attributes:
+      label: Describe the feature you'd like implemented.
+      description: A clear and concise description of what you want to happen.
+    validations:
+      required: true
+  - type: dropdown
+    id: possible
+    attributes:
+      label: Is it possible within the program as is?
+      description: Are you able to accomplish what you're looking to do within the program?
+      options:
+        - Yes, but the process is tedious.
+        - No, it requires an external solution.
+        - No, not at all.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Add any other context or screenshots for your request here.
