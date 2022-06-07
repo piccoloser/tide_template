@@ -1,0 +1,24 @@
+:root {
+    --bg: #222;
+    --fg: #eee;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    color: var(--fg);
+}
+
+article {
+    padding: 1rem 2rem;
+}
+
+header {
+    padding: 1rem 2rem;
+}
+
+html {
+    background-color: var(--bg);
+}
