@@ -6,9 +6,9 @@ This is a simple template for new Rust web applications using the crate [tide](h
 
 ### Repo
 #### Branches
-1. [**main**](../main): This is the main branch, intended for the latest stable version of your program.
-2. [**dev**](../dev): This branch is for unfinished/experimental features and changes.
-3. [**media**](../media): This branch is for storing images to be used in your project's README.
+1. **main**: This is the main branch, intended for the latest stable version of your program.
+2. **dev**: This branch is for unfinished/experimental features and changes.
+3. **media**: This branch is for storing images to be used in your project's README.
 
 #### Issue Templates
 This repo template includes issue templates for bug reports and feature requests:
