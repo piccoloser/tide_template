@@ -6,7 +6,6 @@ pub mod constants {
 
 pub mod structs {
     use crate::{context, Tera};
-    use serde;
     use std::collections::HashMap;
 
     #[derive(Debug, Clone)]
