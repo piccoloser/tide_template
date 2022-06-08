@@ -38,3 +38,13 @@ jobs:
           # args: # optional
           # Use cross instead of cargo
           # use-cross: # optional
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: cargo-test
+        with:
+          command: cargo test
+          args: verbose
