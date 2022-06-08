@@ -36,3 +36,16 @@ pub mod structs {
 }
 
 pub mod functions {}
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn test_context_new() {
+        use crate::Context;
+
+        let context = Context::new("*");
+
+        assert_eq!(context.details.len(), 0);
+        assert_ne!(context.tera.get_template_names().count(), 0);
+    }
+}
